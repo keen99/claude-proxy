@@ -2,6 +2,8 @@
 
 # Claude Code Proxy: Multi-Provider Support for Claude Code
 
+**🆕 This is a completely rewritten and enhanced version** forked from [coffeegrind123/gemini-code](https://github.com/coffeegrind123/gemini-code). While based on the original concept, this version has been transformed into a comprehensive, user-friendly executable tool with significant architectural improvements and new features.
+
 This server acts as a bridge, enabling you to use **Claude Code** with multiple AI providers including **Google Gemini models**. It translates API requests and responses between the Anthropic format (used by Claude Code) and various provider formats (via LiteLLM), allowing seamless integration.
 
 **Currently supported providers:**
@@ -53,8 +55,8 @@ This server acts as a bridge, enabling you to use **Claude Code** with multiple 
 
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/coffeegrind123/gemini-code.git # Or your fork
-    cd gemini-code
+    git clone https://github.com/keen99/claude-proxy.git
+    cd claude-proxy
     ```
 
 2.  **Install system-wide** (Recommended):
@@ -139,7 +141,7 @@ For development or testing without installation:
     - This repository includes a `CLAUDE.md` file. This file contains specific instructions and best practices tailored to help **Gemini** effectively understand and respond to **Claude Code's** unique command structure, tool usage patterns, and desired output formats.
     - **Copy `CLAUDE.md` into your project directory**:
       ```bash
-      cp /path/to/gemini-code/CLAUDE.md /your/project/directory/
+      cp /path/to/claude-proxy/CLAUDE.md /your/project/directory/
       ```
     - When starting a new conversation with Claude Code in that directory, begin with:
       ```
