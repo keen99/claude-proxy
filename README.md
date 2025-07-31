@@ -1,4 +1,6 @@
-# FOR OFFICIAL GOOGLE AI CLI TOOL SEE https://github.com/google-gemini/gemini-cli
+
+
+**PROTOTYPE/WIP - may not work for you yet.**
 
 # Claude Code Proxy: Multi-Provider Support for Claude Code
 
